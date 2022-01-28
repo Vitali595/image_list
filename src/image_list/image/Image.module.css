@@ -1,0 +1,33 @@
+.image {
+    padding: 1rem;
+
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+}
+
+@media screen and (max-width: 480px){
+    .image {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .image {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .image {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .image {
+        width: 25%;
+    }
+}

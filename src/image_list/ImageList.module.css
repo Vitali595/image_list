@@ -1,0 +1,20 @@
+.imageList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 auto;
+
+    margin: 0 0.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px){
+    .container {
+        justify-content: center;
+    }
+}
